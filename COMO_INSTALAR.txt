@@ -1,0 +1,34 @@
+SATOSHI NEKO — Versión PWA (uso personal)
+==========================================
+
+Archivos incluidos:
+  index.html
+  manifest.json
+  sw.js
+  icon-192.png
+  icon-512.png
+  apple-touch-icon.png
+
+CÓMO USARLA EN ANDROID
+----------------------
+
+Opción A — La más fácil (recomendado)
+1. Sube toda esta carpeta a cualquier sitio web
+   (GitHub Pages, Netlify, Vercel, Cloudflare Pages, o tu propio hosting).
+2. Abre la URL en Chrome de Android.
+3. Menú de Chrome (⋮) → "Instalar aplicación" o "Añadir a pantalla de inicio".
+4. Listo. Se abre a pantalla completa como una app.
+
+Opción B — Sin subir a internet (solo WiFi local)
+1. En el ordenador, dentro de esta carpeta ejecuta:
+     python3 -m http.server 8080
+2. En el móvil (misma WiFi) abre:
+     http://IP-DE-TU-PC:8080
+3. Añade a pantalla de inicio desde Chrome.
+
+Notas:
+- Las alertas del navegador siguen funcionando.
+- Los datos (Binance / CoinGecko) necesitan conexión.
+- La interfaz se cachea, así que carga rápido la próxima vez.
+- Para actualizar: borra los datos del sitio en Chrome o
+  desinstala y vuelve a instalar la PWA.

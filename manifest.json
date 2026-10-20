@@ -1,0 +1,25 @@
+{
+  "name": "Satoshi Neko — Derivatives Terminal",
+  "short_name": "Satoshi Neko",
+  "description": "Terminal de filtrado de perpetuos USDT · Short y Squeeze",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0a0c0f",
+  "theme_color": "#0a0c0f",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
-SATOSHI NEKO — Versión PWA (uso personal)
-==========================================
+SATOSHI NEKO — Spot Momentum (Longs) · Versión PWA
+==================================================
 
 Archivos incluidos:
   index.html
@@ -8,6 +8,12 @@ Archivos incluidos:
   icon-192.png
   icon-512.png
   apple-touch-icon.png
+
+QUÉ HACE
+--------
+Escáner de momentum alcista en TODOS los pares SPOT USDT de Binance.
+Filtros: precio 24h, volumen, Δ volumen, Vol/MC y market cap.
+Score por fuerza de impulso (precio + volumen creciente).
 
 CÓMO USARLA EN ANDROID
 ----------------------
@@ -28,7 +34,7 @@ Opción B — Sin subir a internet (solo WiFi local)
 
 Notas:
 - Las alertas del navegador siguen funcionando.
-- Los datos (Binance / CoinGecko) necesitan conexión.
+- Los datos (Binance Spot / CoinGecko) necesitan conexión.
 - La interfaz se cachea, así que carga rápido la próxima vez.
 - Para actualizar: borra los datos del sitio en Chrome o
   desinstala y vuelve a instalar la PWA.

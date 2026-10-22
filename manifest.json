@@ -1,7 +1,7 @@
 {
-  "name": "Satoshi Neko — Derivatives Terminal",
+  "name": "Satoshi Neko — Spot Momentum",
   "short_name": "Satoshi Neko",
-  "description": "Terminal de filtrado de perpetuos USDT · Short y Squeeze",
+  "description": "Terminal de filtrado de pares SPOT USDT · Long Momentum",
   "start_url": "./index.html",
   "display": "standalone",
   "orientation": "any",

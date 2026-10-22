@@ -1,5 +1,5 @@
-/* Satoshi Neko — Service Worker (shell cache only) */
-const CACHE = "sn-v1";
+/* Satoshi Neko Spot — Service Worker (shell cache only) */
+const CACHE = "sn-spot-v1";
 const SHELL = [
   "./",
   "./index.html",
@@ -30,8 +30,8 @@ self.addEventListener("fetch", (event) => {
   if (
     url.hostname.includes("binance.com") ||
     url.hostname.includes("coingecko.com") ||
-    url.pathname.startsWith("/fapi") ||
-    url.pathname.startsWith("/futures")
+    url.pathname.startsWith("/api") ||
+    url.pathname.startsWith("/fapi")
   ) {
     return; // network only
   }
@@ -41,7 +41,6 @@ self.addEventListener("fetch", (event) => {
     caches.match(event.request).then((cached) => {
       if (cached) return cached;
       return fetch(event.request).then((res) => {
-        // Only cache same-origin successful GET
         if (
           event.request.method === "GET" &&
           res.ok &&
